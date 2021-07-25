@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap');
+nav{
+    font-family: 'Roboto Mono', monospace;
+}
+#slider-section{
+    /* background: rgb(53,41,97);
+background: linear-gradient(90deg, rgba(53,41,97,1) 76%, rgba(255,254,254,1) 76%); */
+background: rgb(158,157,162);
+background: linear-gradient(48deg, rgba(158,157,162,1) 23%, rgba(156,153,153,1) 46%, rgba(158,157,162,1) 78%);
+}
+.corner-round-box{
+    border-top-left-radius: 25%;
+    overflow: hidden;
+}
+.slider-control{
+    border: 2px solid #000;
+    width:150px;
+    height: 40px;
+    left: 50%;
+    background: #000;
+}
+
+
+.card-footer i:last-child{
+    opacity: 0.5;
+    font-size: 13px;
+}
+.card-footer i:not(i:last-child){
+    font-size: 13px;
+    margin: 0 3px;
+    color:goldenrod;
+}
+
+.control-btn-pev, .control-btn-nxt{
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+
+}
+.pev-one{
+    right: 14px;
+    bottom: 3px;
+}
+.pev-two{
+    right: 20px;
+    bottom: 3px;
+}
+.nxt-one{
+    right: 14px;
+    bottom: 3px;
+}
+
+.nxt-two{
+    right: 20px;
+    bottom: 3px;
+}
+#app{
+    background:#D70F64;
+}
+
